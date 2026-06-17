@@ -101,4 +101,46 @@ a{
         padding-left: 1.5rem;
         padding-top: 2rem;
     }
+
+.project-cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+/* Card style */
+.project-card{
+    display: block;
+    background-color: #1a1d21;
+    border: 1px solid #2a2d31;
+    border-radius: 10px;
+    padding: 15px 18px;
+    text-decoration: none;
+    color: #aaabad;
+    transition: all 0.2s ease;
+}
+
+/* Card title */
+.project-card h3{
+    margin: 0;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+/* Card subtitle */
+.project-card p{
+    margin: 5px 0 0 0;
+    font-size: 0.95rem;
+    color: #aaabad;
+}
+
+/* Hover effect */
+.project-card:hover{
+    transform: translateY(-4px);
+    border-color: #ffffff33;
+    color: #fff;
+    background-color: #22262b;
+}
+
 }
